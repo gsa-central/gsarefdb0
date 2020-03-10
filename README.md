@@ -1,2 +1,2 @@
-# gsarefdb
-Gene Set Analysis Reference Database
+# GSARefDB
+The Gene Set Analysis Reference Database
