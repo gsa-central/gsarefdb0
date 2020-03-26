@@ -44,7 +44,7 @@ shinyServer(function(input, output, session){
                                  lengthMenu = list(c(25, 50, -1), # declare values
                                                    c(25, 50, "All") # declare titles
                                  ) # end of lengthMenu customization
-          )
+          )))
   
   output$DT2 <- DT::renderDataTable(
     DT::datatable(data()$RBdata,
@@ -73,8 +73,7 @@ shinyServer(function(input, output, session){
                                                    c(25, 50, "All") # declare titles
                                  ) # end of lengthMenu customization
                   )
-    )
-  )
+  ))
   
   
   output$DT3 <- DT::renderDataTable(
@@ -133,8 +132,7 @@ shinyServer(function(input, output, session){
                                                    c(25, 50, "All") # declare titles
                                  ) 
                   )
-    )
- )
+    ))
   
   # plot
   output$plot <- renderPlot({
