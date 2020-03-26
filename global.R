@@ -7,7 +7,7 @@ library(readr)
 library(readxl)
 
 ## read refdata into R
-file = "data/GSA Reference DB.xlsx"
+file = "data/GSA Reference DB_1.xlsx"
 
 ## openxlsx::read.xlsx(file,1, startRow=5)
 GTdata <- readxl::read_excel(file, sheet = 1, range = "A5:L355")
