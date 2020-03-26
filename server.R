@@ -39,7 +39,7 @@ shinyServer(function(input, output, session){
                                                                          filename = 'General methods and tools'),
                                                                     list(extend = 'excel',
                                                                          filename = 'General methods and tools')),
-                                                     text = "Download")),                                                     filename = "test")), 
+                                                     text = "Download")),
                                  # customize the length menu 
                                  lengthMenu = list(c(25, 50, -1), # declare values
                                                    c(25, 50, "All") # declare titles
