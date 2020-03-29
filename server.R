@@ -33,7 +33,7 @@ shinyServer(function(input, output, session){
                                  searchHighlight = TRUE,
                                  paging = TRUE,
                                  # pageLength = 25,
-                                 dom = 'Blftsip',
+                                 dom = 'lfBtsip',
                                  buttons = list(list(extend = "collection",
                                                      buttons = list(list(extend='csv',
                                                                          filename = 'General methods and tools'),
