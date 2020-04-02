@@ -5,7 +5,6 @@ library(hms)
 library(reshape2)
 library(readr)
 library(readxl)
-library(ggpubr)
 
 ## read refdata into R
 file = "data/GSA Reference DB_1.xlsx"
