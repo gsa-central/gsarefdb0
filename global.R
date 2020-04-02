@@ -3,7 +3,7 @@ BiocManager::install("shiny")
 BiocManager::install("DT")
 BiocManager::install("shinythemes")
 BiocManager::install("hms")
-BiocManager::install("readr")
+BiocManager::install("tidyverse")
 BiocManager::install("reshape2")
 BiocManager::install("readxl")
 	
@@ -13,7 +13,7 @@ library(shinythemes)
 library(DT)
 library(hms)
 library(reshape2)
-library(readr)
+library(tidyverse)
 library(readxl)
 
 ## read refdata into R
