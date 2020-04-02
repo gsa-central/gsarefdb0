@@ -1,6 +1,16 @@
-library(DT)
+install.packages("BiocManager")
+BiocManager::install("shiny")
+BiocManager::install("DT")
+BiocManager::install("shinythemes")
+BiocManager::install("hms")
+BiocManager::install("readr")
+BiocManager::install("reshape2")
+BiocManager::install("readxl")
+	
+	
 library(shiny)
 library(shinythemes)
+library(DT)
 library(hms)
 library(reshape2)
 library(readr)
