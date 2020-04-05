@@ -1,5 +1,6 @@
 shinyUI(fluidPage(
   # includeScript(path = "www/try.js"),
+  theme = "try.css",
   navbarPage(
     title=div(img(src="GSACENTRAL_Logo.png", width = "100px", height = "50px")),
     # h4("GSA-ref-DB"),
